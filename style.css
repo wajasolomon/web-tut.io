@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('pisa.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.baba {
+    width: 100%;
+    height: 100vh;
+}
+
+.baba .text {
+    width: 100%;
+    height: 80px;
+    background: cornsilk;
+    text-align: center;
+}
+
+.baba .text ul li {
+    display: inline-block;
+    margin-top: 25px;
+    color: black;
+    margin: 34px 25px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.baba .text ul li:hover {
+    color: brown;
+}
+
+.papa {
+    margin-top: 20%;
+    color: white;
+    font-size: 20px;
+    margin-left: 65px;
+}
+
+span {
+    color: lawngreen;
+}
+
+.bo {
+    width: 1000px;
+
+}
+
+.baba .papa .bo {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.bo input {
+    height: 36px;
+    width: 320px;
+    background: white;
+    padding-left: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+.bo button {
+    height: 36px;
+    background: lawngreen;
+    border: none;
+    width: 56px;
+    margin-left: -5.9px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.oo {
+    width: 650px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.org {
+    width: 100%;
+    height: 100vh;
+    background: ;
+    background-size: auto;
+    overflow: hidden;
+}
+
+/*org*/
+.org {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background: black;
+}
+
+.org .pp {
+    width: 100%;
+    height: 450px;
+    padding: 0 2%;
+    display: flex;
+}
